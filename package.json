@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/wamaithaNyamu/SBT-Japan-linear-regression-model#readme",
   "dependencies": {
-    "puppeteer": "^14.4.1"
+    "puppeteer": "^14.4.1",
+    "puppeteer-cluster": "^0.23.0"
   }
 }

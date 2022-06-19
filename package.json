@@ -1,0 +1,22 @@
+{
+  "name": "sbt-japan-linear-regression-model",
+  "version": "1.0.0",
+  "description": "Linear regression sbt japan data",
+  "main": "webScraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wamaithaNyamu/SBT-Japan-linear-regression-model.git"
+  },
+  "author": "Wamaitha Nyamu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wamaithaNyamu/SBT-Japan-linear-regression-model/issues"
+  },
+  "homepage": "https://github.com/wamaithaNyamu/SBT-Japan-linear-regression-model#readme",
+  "dependencies": {
+    "puppeteer": "^14.4.1"
+  }
+}

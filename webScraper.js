@@ -82,6 +82,9 @@ const getStockIds = async (maxPages,page) => {
 const carDetails = async (page,stockID) => {
      try{
         // get car details
+         const title =  await page.$eval("#contents_detail > div.content > ul > li:nth-child(2) > h1", el => el.innerText);
+         console.log(title);
+
          // table head
         const th = await page.$$eval('table.tabA:nth-child(2) tr th', ths => ths.map((th) => {
           return th.innerText;
@@ -132,6 +135,7 @@ const carDetails = async (page,stockID) => {
         });
 
        const details= {
+                'title':title,
                 ...td_th,
                 ...accessories,
                'price': price
@@ -184,7 +188,7 @@ const getEachCarDetailsConcurrently = async () => {
             concurrency: Cluster.CONCURRENCY_CONTEXT,
             maxConcurrency: maxBrowsers,
              puppeteerOptions: {
-                headless: false,
+                headless: true,
                 args: [`--window-size=${1680},${1000}`],
               },
         });

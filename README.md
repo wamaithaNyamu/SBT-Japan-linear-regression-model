@@ -201,8 +201,8 @@ Project Link: [https://github.com/wamaithanyamu/SBT-Japan-linear-regression-mode
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Lux Academy]()
-* [DataScience East Africa]()
+* [Lux Academy](https://twitter.com/lux_academy)
+* [DataScience East Africa](https://twitter.com/DSEAfrica)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>

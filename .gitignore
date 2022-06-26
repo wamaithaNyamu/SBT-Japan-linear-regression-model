@@ -1,9 +1,5 @@
 .idea
 __pycache
-images
-README.md
-CHANGELOG.md
-LICENSE.txt
 venv
 node_modules
 CAR_DETAILS

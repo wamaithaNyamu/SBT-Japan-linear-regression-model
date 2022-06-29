@@ -81,7 +81,7 @@ During the session we will cover how to scrape data from websites using a practi
 
 - Web scraping using a headless browser (puppeteer)
 
-- Concurrency when scraping to speed up the princess.
+- Concurrency when scraping to speed up the process.
 
 - Exporting the data
 
